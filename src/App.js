@@ -1,3 +1,4 @@
+import "./reset.css";
 import TopBanner from "./components/TopBanner/TopBanner";
 
 const App = () => {
