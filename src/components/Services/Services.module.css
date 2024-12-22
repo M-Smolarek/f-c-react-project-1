@@ -1,0 +1,45 @@
+.services {
+  display: flex;
+  background-color: lightblue;
+}
+.servicesContent {
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.servicesHeader {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  font-size: 26px;
+}
+.servicesBoxes {
+  display: grid;
+  grid-template-columns: 250px;
+  gap: 20px;
+  justify-content: center;
+}
+.servicesBox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  aspect-ratio: 1/1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+.serviceNew {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orange;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+@media (min-width: 1024px) {
+  .servicesBoxes {
+    grid-template-columns: repeat(3, 250px);
+  }
+}

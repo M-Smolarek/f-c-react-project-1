@@ -1,0 +1,45 @@
+.mainSection {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mainSectionShadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 100vh;
+}
+.mainSectionContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-wrap: wrap;
+  color: white;
+  height: 100vh;
+}
+.mainSectionProducts {
+  font-size: 26px;
+  width: 100%;
+}
+.mainSectionOffer {
+  border: 3px solid white;
+  display: block;
+  width: fit-content;
+  padding: 5px 45px;
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 1024px) {
+  .mainSectionProducts {
+    width: 400px;
+  }
+}
+@media (hover: hover) {
+  .mainSectionOffer:hover {
+    background-color: grey;
+  }
+}

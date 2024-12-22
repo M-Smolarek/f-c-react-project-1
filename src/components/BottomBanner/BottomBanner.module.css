@@ -1,0 +1,34 @@
+.bottomBanner {
+  display: flex;
+  height: 95px;
+  align-items: center;
+  background-color: grey;
+}
+.bottomBannerContent {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+.bottomNavigation {
+  display: flex;
+  gap: 15px;
+}
+.instagramLogo {
+  height: 20px;
+  width: 20px;
+}
+.facebookLogo {
+  height: 20px;
+  width: 20px;
+}
+@media (min-width: 1024px) {
+  .bottomBanner {
+    height: 65px;
+  }
+  .bottomBannerContent {
+    flex-direction: row;
+  }
+}

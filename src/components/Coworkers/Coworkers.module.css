@@ -1,0 +1,40 @@
+.coworkersContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.coworkersHeader {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  font-size: 26px;
+}
+.coworker {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.coworkerPic {
+  height: 200px;
+  width: 200px;
+  min-width: 200px;
+  border-radius: 50%;
+}
+.coworkerDescription {
+  display: flex;
+  flex-direction: column;
+}
+.coworkerDescriptionName {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+@media (min-width: 1024px) {
+  .coworker {
+    flex-direction: row;
+  }
+  .coworker:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+}
