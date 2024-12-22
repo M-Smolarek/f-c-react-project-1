@@ -17,12 +17,10 @@
   gap: 15px;
 }
 .instagramLogo {
-  height: 20px;
-  width: 20px;
+  border-radius: 25%;
 }
 .facebookLogo {
-  height: 20px;
-  width: 20px;
+  border-radius: 25%;
 }
 @media (min-width: 1024px) {
   .bottomBanner {

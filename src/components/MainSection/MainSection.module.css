@@ -1,6 +1,6 @@
 .mainSection {
   height: 100vh;
-  background-repeat: no-repeat;
+  background: url(../../assets/photos/fog-over-woods.jpg) no-repeat;
   background-size: cover;
   position: relative;
 }

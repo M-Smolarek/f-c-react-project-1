@@ -9,10 +9,10 @@ const BottomBanner = () => {
         <div>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</div>
         <div className={styles.bottomNavigation}>
           <div className={styles.instagramLogo}>
-            <img src={FacebookLogo} alt="" />
+            <img src={FacebookLogo} width="20" height="20" alt="" />
           </div>
           <div className={styles.facebookLogo}>
-            <img src={InstagramLogo} alt="" />
+            <img src={InstagramLogo} width="20" height="20" alt="" />
           </div>
         </div>
       </section>

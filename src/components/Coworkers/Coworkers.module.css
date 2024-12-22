@@ -17,6 +17,7 @@
   align-items: center;
 }
 .coworkerPic {
+  /* background: url(../../assets/photos/silhouette.jpg); */
   height: 200px;
   width: 200px;
   min-width: 200px;

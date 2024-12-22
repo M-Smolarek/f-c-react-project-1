@@ -7,8 +7,12 @@ const Coworkers = () => {
         <h2 className={styles.coworkersHeader}>Nasi specjaliści</h2>
         <div className={styles.coworker}>
           <img
-            className={styles.coworkerPic}
+            // className={styles.coworkerPic}
             src="Coworkersilhouette.jpg"
+            height="200px"
+            width="200px"
+            min-width="200px"
+            border-radius="50%"
             alt="coworker"
           />
           <div className={styles.coworkerDescription}>
