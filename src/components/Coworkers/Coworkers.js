@@ -1,5 +1,4 @@
 import styles from "./Coworkers.module.css";
-import Coworkersilhouette from "../../assets/photos/silhouette.jpg";
 const Coworkers = () => {
   return (
     <section id="Coworkers">
@@ -7,12 +6,8 @@ const Coworkers = () => {
         <h2 className={styles.coworkersHeader}>Nasi specjaliści</h2>
         <div className={styles.coworker}>
           <img
-            // className={styles.coworkerPic}
-            src="Coworkersilhouette.jpg"
-            height="200px"
-            width="200px"
-            min-width="200px"
-            border-radius="50%"
+            className={styles.coworkerPic}
+            src="/images/silhouette.jpg"
             alt="coworker"
           />
           <div className={styles.coworkerDescription}>
@@ -30,7 +25,7 @@ const Coworkers = () => {
         <div className={styles.coworker}>
           <img
             className={styles.coworkerPic}
-            src="Coworkersilhouette.jpg"
+            src="/images/silhouette.jpg"
             alt="coworker"
           />
           <div className={styles.coworkerDescription}>
