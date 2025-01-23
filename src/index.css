@@ -10,8 +10,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-html,
-body {
+html {
   scroll-behavior: smooth;
 }
 .content {

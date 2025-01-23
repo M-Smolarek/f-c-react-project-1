@@ -15,12 +15,7 @@
 .bottomNavigation {
   display: flex;
   gap: 15px;
-}
-.instagramLogo {
-  border-radius: 25%;
-}
-.facebookLogo {
-  border-radius: 25%;
+  font-size: 25px;
 }
 @media (min-width: 1024px) {
   .bottomBanner {

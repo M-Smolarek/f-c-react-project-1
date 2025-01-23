@@ -1,6 +1,6 @@
 import styles from "./BottomBanner.module.css";
-import FacebookLogo from "../../assets/photos/facebook.jpg";
-import InstagramLogo from "../../assets/photos/Instagram.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 const BottomBanner = () => {
   return (
@@ -8,12 +8,8 @@ const BottomBanner = () => {
       <section className={`content ${styles.bottomBannerContent}`}>
         <div>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</div>
         <div className={styles.bottomNavigation}>
-          <div className={styles.instagramLogo}>
-            <img src={FacebookLogo} width="20" height="20" alt="" />
-          </div>
-          <div className={styles.facebookLogo}>
-            <img src={InstagramLogo} width="20" height="20" alt="" />
-          </div>
+          <FontAwesomeIcon icon={faFacebook} color="white" />
+          <FontAwesomeIcon icon={faTwitter} color="white" />
         </div>
       </section>
     </footer>

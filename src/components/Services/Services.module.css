@@ -28,6 +28,7 @@
   justify-content: center;
   gap: 10px;
   position: relative;
+  transition: 0.5s;
 }
 .serviceNew {
   width: 20px;
@@ -41,5 +42,9 @@
 @media (min-width: 1024px) {
   .servicesBoxes {
     grid-template-columns: repeat(3, 250px);
+  }
+  .servicesBox:hover {
+    transform: scale(1.05);
+    cursor: pointer;
   }
 }
