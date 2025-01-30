@@ -1,7 +1,7 @@
 import styles from "./Coworkers.module.css";
 const Coworkers = () => {
   return (
-    <section id="Coworkers">
+    <section id="aboutUs">
       <section className={`content ${styles.coworkersContent}`}>
         <h2 className={styles.coworkersHeader}>Nasi specjaliści</h2>
         <div className={styles.coworker}>
@@ -28,7 +28,7 @@ const Coworkers = () => {
             src="/images/silhouette.jpg"
             alt="coworker"
           />
-          <div className={styles.coworkerDescription}>
+          <div className={styles.coworker2Description}>
             <div className={styles.coworkerDescriptionName}>
               Imię Nazwisko [ dział ]
             </div>

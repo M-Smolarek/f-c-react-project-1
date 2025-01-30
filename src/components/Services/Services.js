@@ -3,7 +3,7 @@ import styles from "./Services.module.css";
 
 const Services = () => {
   return (
-    <section className={styles.services} id="oferta">
+    <section className={styles.services} id="offer">
       <section className={`content ${styles.servicesContent}`}>
         <h2 className={styles.servicesHeader}>Czym zajmuje się nasza firma?</h2>
         <div className={styles.servicesBoxes}>

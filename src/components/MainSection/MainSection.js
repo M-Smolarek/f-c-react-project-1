@@ -16,7 +16,7 @@ const MainSection = () => {
           </h1>
           <div>Nie wierz nam na słowo - sprawdź</div>
           <div>
-            <a href="#oferta" className={styles.mainSectionOffer}>
+            <a href="#offer" className={styles.mainSectionOffer}>
               oferta
             </a>
           </div>

@@ -6,10 +6,10 @@ const TopBanner = () => {
       <section className={`content ${styles.topBannerContent}`}>
         <div>moja firma</div>
         <nav className={styles.navigation}>
-          <a href="#o-nas" className={styles.navigationItem}>
+          <a href="#aboutUs" className={styles.navigationItem}>
             o nas{" "}
           </a>
-          <a href="#oferta" className={styles.navigationItem}>
+          <a href="#offer" className={styles.navigationItem}>
             oferta
           </a>
           <div
