@@ -1,14 +1,7 @@
 import styles from "./MainSection.module.css";
-// import MainSectionBackgroundPhoto from "../../assets/photos/fog-over-woods.jpg";
 const MainSection = () => {
   return (
     <section className={styles.mainSection}>
-      {/* <img
-        src={MainSectionBackgroundPhoto}
-        background-repeat="no-repeat"
-        background-size="cover"
-        alt=""
-      /> */}
       <div className={styles.mainSectionShadow}>
         <section className={`content ${styles.mainSectionContent}`}>
           <h1 className={styles.mainSectionProducts}>

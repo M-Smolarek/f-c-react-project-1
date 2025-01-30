@@ -2,7 +2,7 @@ import styles from "./Coworkers.module.css";
 const Coworkers = () => {
   return (
     <section id="aboutUs">
-      <section className={`content ${styles.coworkersContent}`}>
+      <div className={`content ${styles.coworkersContent}`}>
         <h2 className={styles.coworkersHeader}>Nasi specjaliści</h2>
         <div className={styles.coworker}>
           <img
@@ -40,7 +40,7 @@ const Coworkers = () => {
             </p>
           </div>
         </div>
-      </section>
+      </div>
     </section>
   );
 };
